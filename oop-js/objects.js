@@ -24,6 +24,6 @@ function StopWatch(){
     }
     //exposing duration property as read only
     Object.defineProperty(this, 'duration', {
-        get: function(){return duration;}
+        get: function(){return duration;}   
     })
 }
