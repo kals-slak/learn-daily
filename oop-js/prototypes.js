@@ -12,6 +12,7 @@ StopWatch.prototype.start = function(){
     }
     this.duration = new Date()/1000;
     this.running = true;
+    console.log(this.running);
 }
 
 StopWatch.prototype.stop = function(){
