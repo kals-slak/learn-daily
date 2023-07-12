@@ -1,3 +1,4 @@
+//exercise questions
 //stopwatch
 function StopWatch(){
     this.duration = 0;
